@@ -1,10 +1,10 @@
-/* Custom Fonts (Added 'Caveat' for the relaxed handwriting!) */
+/* Custom Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
 
 /* Basic Setup & Light Green Background */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f2f9f2; /* Soft light green */
+    background-color: #f2f9f2;
     color: #333333;
     margin: 0;
     padding: 0;
@@ -14,29 +14,25 @@ body {
 /* Headings */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
-    color: #2e5a2c; /* Earthy dark forest green */
+    color: #2e5a2c;
     text-align: center;
 }
 
-/* The Title Section (Now with your tree background!) */
-/* The Title Section (Now with your tree background!) */
-/* The Title Section */
-/* The Title Section */
-/* The Title Section (Now with side-by-side Flexbox layout!) */
+/* The Title Section (Side-by-Side Flexbox) */
 .title-section {
     display: flex;
-    flex-wrap: wrap; /* Stacks nicely if she opens it on her phone */
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 50px; /* Space between the video and the text */
+    gap: 50px;
     padding: 80px 20px;
-    background-color: #e8f5e9; /* Solid, beautiful soft green background */
+    background-color: #e8f5e9;
     border-bottom: 3px solid #c8e6c9;
 }
 
 .title-video iframe {
     border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1); /* Adds a nice drop shadow to the video */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     max-width: 100%;
 }
 
@@ -56,11 +52,12 @@ h1, h2, h3 {
     color: #4a7c47;
     margin-top: -10px;
 }
+
 /* Navigation Links */
 .nav-links {
     text-align: center;
     padding: 15px;
-    background-color: #2e5a2c; /* Forest green */
+    background-color: #2e5a2c;
 }
 
 .nav-links a {
@@ -74,7 +71,7 @@ h1, h2, h3 {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #66bb6a; /* Bright pleasing green */
+    background-color: #66bb6a;
     color: white;
     border-radius: 25px;
     text-decoration: none;
@@ -122,10 +119,9 @@ h1, h2, h3 {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     margin-bottom: 30px;
-    border-left: 5px solid #66bb6a; /* Light green accent line */
+    border-left: 5px solid #66bb6a;
 }
 
-/* THE NEW RELAXED QUOTE FONT */
 .message-quote {
     font-family: 'Caveat', cursive; 
     font-size: 1.6rem;
@@ -148,7 +144,7 @@ h1, h2, h3 {
     gap: 10px;
 }
 
-/* Container Div 3: Playlist (Nested Lists) */
+/* Container Div 3: Playlist */
 .playlist-container {
     background: #ffffff;
     padding: 30px;
@@ -157,7 +153,7 @@ h1, h2, h3 {
     max-width: 800px;
     margin: 40px auto;
     max-height: 500px;
-    overflow-y: auto; /* Independently scrolling */
+    overflow-y: auto;
 }
 
 .playlist-container ol {
